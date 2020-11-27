@@ -1,0 +1,10 @@
+.grid {
+    width: 200px;
+    height: 200px;
+    border: 1px solid red;
+    background:orange;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
