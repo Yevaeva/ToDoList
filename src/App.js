@@ -1,14 +1,17 @@
 import './App.css';
 import ToDo from './toDoList/ToDoList'
-//import Grid from './grid'
-//import {Container,Row,Col} from 'react-bootstrap'; 
+import Grid from './grid'
+import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
+import ToDoList from './toDoList1/ToDoList'
 
 
 function App() {
   return (
     <div className="App">
-     <ToDo />
+      {/* <ToDo /> */}
+      <ToDoList />
       
+
     </div>
   );
 }
