@@ -1,6 +1,4 @@
 import './App.css';
-import ToDo from './toDoList/ToDoList'
-import Grid from './grid'
 import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import ToDoList from './toDoList1/ToDoList'
 import { Redirect, Route, Switch, Link, NavLink } from 'react-router-dom'
@@ -11,17 +9,44 @@ import NotFound from './toDoList1/pages/NotFound'
 import NavBar from './toDoList1/NavMenu/NavBar';
 
 function App() {
+
+  const routes = [
+    {
+      path: '/',
+      component: ToDoList
+    },
+    {
+      path: '/about',
+      component: About
+    },
+    {
+      path: '/task/:id',
+      component: SingleTask
+    },
+    {
+      path: '/contacts',
+      component: Contacts
+    },
+    {
+      path: '/404',
+      component: NotFound
+    },
+  ]
   return (
     <div className="App">
       <NavBar />
       {/* <ToDo /> */}
       <Switch>
-        <Route path='/' exact component={ToDoList} />
-        <Route path='/about' exact component={About} />
-        <Route path='/task/:id' exact component={SingleTask} />
-        <Route path='/contacts' exact component={Contacts} />
-        <Route path='/404' exact component={NotFound} />
-        <Redirect to='/404'/>
+        {
+          routes.map((m, index) =>
+            <Route
+              path={m.path}
+              exact
+              component={m.component}
+              key={index} />)
+        }
+
+        <Redirect to='/404' />
       </Switch>
 
 
