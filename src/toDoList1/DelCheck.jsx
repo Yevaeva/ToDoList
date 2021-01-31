@@ -4,6 +4,7 @@ import { faTrash, faEdit } from '@fortawesome/free-solid-svg-icons';
 import './ToDoList.css'
 import idGenerator from './idGenerator'
 import PropTypes from 'prop-types'
+import { Link } from 'react-router-dom'
 
 
 
@@ -39,13 +40,16 @@ class DelCheck extends Component {
 
 
     return (
-      <ul className={checked ? 'checked' : ''}
-        key={tasks._id}>
-        <li >
-          <div className='line'>
-            <div>
-              <div>{tasks.title}</div>
-              <div>{tasks.description}</div>
+      <div className= {checked ? 'checked line' : ' line'}>
+          {/* <div className='line'> */}
+            <div className='text'>
+              <div>
+                <Link to={`/task/${tasks._id}`}>
+                   Title: {tasks.title}
+                </Link>
+              </div>
+              <div>Description: {tasks.description}</div>
+              <div>Date: {tasks.date.slice(0,10)}</div>
             </div>
 
 
@@ -66,9 +70,8 @@ class DelCheck extends Component {
                 onClick={this.checkHandler}
                 key={tasks._id} />
             </div>
-          </div>
-        </li>
-      </ul>
+          {/* </div> */}
+      </div>
 
 
     )

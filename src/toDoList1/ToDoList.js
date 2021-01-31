@@ -143,6 +143,7 @@ class ToDoList extends PureComponent {
           selectedTasks: new Set(),
           showConfirm: false,
         })
+        console.log(!!this.state.selectedTasks);
       })
       .catch((error) => {
         console.log(error);
