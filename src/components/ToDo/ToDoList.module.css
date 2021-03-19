@@ -1,0 +1,84 @@
+.back {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+}
+.list {
+    max-width:600px;
+    color: #ffffff;
+    padding: 10px;
+    background-color: rgb(237, 187, 226);
+    border-radius: 10px;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.date {
+    text-align: left;
+    
+}
+.text {
+    text-align: left;
+    padding: 10px;
+}
+
+
+.btn {
+    background-color: rgb(237, 187, 226) ;
+    border: 1px solid white;
+    border-radius: 60px;
+    width: 80px;
+    height:100%;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    padding: 10px;
+    margin: 10px;
+    
+}
+
+.btn:hover{
+    background-color: rgba(159,227,255,1)  ;
+
+}
+
+  
+
+  .task{
+      display:flex;
+      justify-content:space-between ; 
+      align-items: center;
+      
+  }
+
+  
+
+ 
+   ol {
+      padding-left: 20px;
+  }
+  .chekedtask {
+      color:  rgba(159,227,255,1);
+  }
+
+  
+
+  .checked {
+      border: 1px solid white;
+      border-radius: 10px;
+  }
+
+
+  .tasksWrapper {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+      justify-content: center;
+  }
+ 

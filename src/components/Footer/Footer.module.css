@@ -1,0 +1,38 @@
+footer {
+    display: block;
+    height: 80px;
+    width: 100%;
+    margin-top: 100px;
+}
+
+
+.footer {
+    
+    background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% );
+    border: 1px solid white;
+    text-align: center;
+    color: white;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 80px;
+
+}
+
+.networks {
+    padding: 5px;
+}
+.networks svg {
+    margin: 0 10px;
+}
+.networks svg:hover{
+   color: rgba(159,227,255,1)!important;
+   background-color: white;
+  
+  }
+
+  .footer a {
+      color: white;
+  }
+
