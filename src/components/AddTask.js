@@ -1,6 +1,4 @@
 import React, { createRef, PureComponent } from 'react';
-// import '․/ToDo/ToDoList.css'
-import PropTypes from 'prop-types'
 import { Modal, Button } from 'react-bootstrap';
 import './addTask.css'
 import DatePicker from "react-datepicker";
@@ -114,6 +112,3 @@ const mapDispatchToProps = {
 
 export default connect(null, mapDispatchToProps)(AddTask)
 
-AddTask.propTypes = {
-  // addTask: PropTypes.func,
-}

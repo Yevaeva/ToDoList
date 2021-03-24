@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faTrash, faEdit, faCheck, faCarAlt, faHistory } from '@fortawesome/free-solid-svg-icons';
+import { faTrash, faEdit, faCheck, faHistory } from '@fortawesome/free-solid-svg-icons';
 // import './ToDoList.css'
 import PropTypes from 'prop-types'
 import { Link } from 'react-router-dom'

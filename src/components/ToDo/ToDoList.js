@@ -6,7 +6,6 @@ import Confirm from '../Confirm';
 import EditTaskModal from '../EditTaskModal';
 import { connect } from 'react-redux';
 import { getTasks, removeSelected } from '../../store/actions';
-import Search from '../search/Search';
 import Sear from '../s/Sear';
 
 

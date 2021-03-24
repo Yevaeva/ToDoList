@@ -1,6 +1,5 @@
-import { Redirect } from 'react-router'
 import * as actionTypes from './actionTypes'
-import React from 'react'
+
 
 
 const defaultState = {
