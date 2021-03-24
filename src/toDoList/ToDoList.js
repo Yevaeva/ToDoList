@@ -70,7 +70,6 @@ class ToDo extends Component {
   }
 
   handleCheck = (taskId) => {
-    console.log(taskId)
     const selectedTasks = new Set(this.state.selectedTasks);
     if (selectedTasks.has(taskId)) {
       selectedTasks.delete(taskId)

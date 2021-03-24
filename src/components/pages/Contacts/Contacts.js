@@ -24,7 +24,6 @@ const Contacts = (props) => {
         if (values.email && values.name && values.message) {
             if (validateEmail(values.email)) {
                 props.sendContact(values)
-                console.log(values);
                 setValues({
                     name: '',
                     email: '',

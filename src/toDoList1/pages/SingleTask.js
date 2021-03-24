@@ -68,7 +68,7 @@ class SingleTask extends React.PureComponent {
                 if (response.error) {
                     throw response.error
                 }
-                console.log(response);
+    
 
                 this.setState({
                     task: response,

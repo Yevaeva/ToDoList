@@ -21,7 +21,6 @@ class ToDoList extends PureComponent {
 
   componentDidMount() {
     this.props.getTasks()
-    console.log(this.props)
   }
 
   componentDidUpdate(prevProps) {

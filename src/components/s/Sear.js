@@ -100,7 +100,6 @@ const Sear = (props) => {
         if (search) data.search = search;
         if (sort) data.sort = sort;
         if (status) data.status = status;
-        console.log(data)
         props.getTasks(data)
 
     }
