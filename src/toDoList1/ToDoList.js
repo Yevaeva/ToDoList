@@ -120,7 +120,6 @@ class ToDoList extends PureComponent {
     let data = {
       tasks: [...this.state.selectedTasks],
     }
-    console.log(data);
     fetch('http://localhost:3001/task', {
       method: 'PATCH',
       headers: { 'Content-Type': 'application/json' },
@@ -143,7 +142,6 @@ class ToDoList extends PureComponent {
           selectedTasks: new Set(),
           showConfirm: false,
         })
-        console.log(!!this.state.selectedTasks);
       })
       .catch((error) => {
         console.log(error);
@@ -179,7 +177,6 @@ class ToDoList extends PureComponent {
         if (response.error) {
           throw response.error
         }
-        console.log(response);
         let tasks = [...this.state.tasks];
         let newTaskIndex = tasks.findIndex((task) => task._id === editedTask._id);
         tasks[newTaskIndex] = response;
