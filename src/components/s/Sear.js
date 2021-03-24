@@ -1,6 +1,6 @@
 import { InputGroup, FormControl,  Accordion, Button } from 'react-bootstrap'
 import styles from './Sear.module.css'
-import React, { useEffect, useState } from 'react';
+import React, {  useState } from 'react';
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import { connect } from 'react-redux';
