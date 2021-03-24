@@ -1,0 +1,45 @@
+.menu {
+    /* background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% ); */
+
+    background-color: rgb(237, 187, 226)!important;
+    border: 1px solid #ffffff;
+    text-align: center;
+    margin:0 10px;
+    border-radius: 60px;
+}
+.fixed {
+    position: sticky!important;
+    top:0;
+    z-index: 99;
+
+}
+
+.menu button {
+    border:none;
+}
+.menu button span {
+    color: white;
+
+}
+.menu button:focus {
+    outline: none;
+}
+.navLink {
+    color: white!important;
+    margin:5px auto;
+    max-width: 20%;
+    min-width: 100px;
+border:none;
+padding: 5px;
+}
+
+.activepage {
+    background-color: rgba(159,227,255,1)!important;
+}
+
+@media only screen and (min-width: 992px) {
+    .navLink {
+        margin:5px;
+        border:none!important;
+    }
+  }

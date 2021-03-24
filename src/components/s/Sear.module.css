@@ -1,0 +1,75 @@
+
+
+.searchWrapper {
+    padding: 40px;
+    margin:auto;
+    width: 70%;
+    min-width: 300px;
+}
+
+.buttonToggle {
+    all: unset;
+    border-radius: 60px;
+   
+}
+.searchToggle {
+    background-color: rgb(237, 187, 226) ;
+    border: 1px solid white;
+  color: white;
+  outline: none; 
+   padding: 10px;
+}
+
+
+.advSearch {
+    border-radius: 0;
+    background-color: rgb(237, 187, 226) ;
+    border: 1px solid white;
+  color: white;
+    outline: none;
+    padding: 0 5px;
+}
+.searchBtn {
+    background-color: rgb(237, 187, 226) ;
+    border: 1px solid white;
+  color: white;
+    outline: none;
+    border-radius: 60px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+.advSearch:hover {
+    background-color: rgba(159,227,255,1)  ;
+ 
+}
+.searchBtn:hover {
+    background-color: rgba(159,227,255,1)  ;
+ 
+}
+
+.advancedOptions {
+    padding: 15px 0;
+ 
+}
+.advancedOptions>div {
+    padding: 10px 0;
+}
+.advancedOptions button {
+    margin: auto;
+    display: block;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.dateWrapper {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+
+.searchInput {
+    border-radius: 60px;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    border:1px solid white;
+}

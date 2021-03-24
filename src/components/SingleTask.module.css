@@ -1,0 +1,44 @@
+.singleWrapper {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    margin: 20px;
+    
+}
+.singleWrapper p {
+padding:15px 0;
+}
+
+.singleTask {
+    width: 70%;
+    padding: 25px;
+    border: 1px solid white;
+    border-radius: 10px;
+    color: white;
+}
+@media only screen and (max-width: 600px) {
+    .singleTask {
+        width: auto;
+    }
+  }
+.delcheck {
+    width: 75%;
+    display:flex;
+   
+    align-items: center;
+    padding-top: 15px;
+  }
+  .delcheck button {
+    padding: 10px;
+    color: white;
+  border: none;
+  background: none;
+  border:1px solid transparent;
+}
+.delcheck button:hover {
+    background-color:rgba(159,227,255,1) ;
+    border: 1px solid white;
+}
+h3, p {
+    word-break: break-word;
+}
