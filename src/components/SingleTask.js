@@ -1,5 +1,4 @@
 import React from 'react'
-import Spinner from './spinner/Spinner'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faTrash, faEdit, faHistory, faCheck } from '@fortawesome/free-solid-svg-icons';
 import EditTaskModal from './EditTaskModal'
