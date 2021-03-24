@@ -92,10 +92,12 @@ class AddTask extends PureComponent {
         <Modal.Footer>
 
           <Button variant="danger"
+          className='butn'
             onClick={onClose}>
             Cancel
               </Button>
           <Button variant="primary"
+          className='butn'
             onClick={this.addTask}>
             Add
              </Button>
