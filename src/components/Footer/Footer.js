@@ -18,7 +18,7 @@ const Footer = () => {
 
                     <FontAwesomeIcon size="2x" icon={faGithub} />
                     </a>
-                <a href='https://codepen.io/your-work/' rel='noreferrer noopener' target="_blank"> 
+                <a href='https://codepen.io/yevaeva/pens/public' rel='noreferrer noopener' target="_blank"> 
 
                     <FontAwesomeIcon size="2x" icon={faCodepen} />
                     </a>
