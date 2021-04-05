@@ -100,7 +100,9 @@ const Sear = (props) => {
         if (search) data.search = search;
         if (sort) data.sort = sort;
         if (status) data.status = status;
+        
         props.getTasks(data)
+        console.log(data)
 
     }
     const toggleSubmit =()=>{
@@ -112,14 +114,20 @@ const Sear = (props) => {
     const sortHandleChange = (e) => {
         if (e) {
             setSort(e.value)
+        }else{
+            setSort('')
         }
 
     }
 
     const statusHandleChange = (e) => {
         if (e) {
+            
             setStatus(e.value)
+        }else {
+            setStatus('')   
         }
+    
 
     }
 
