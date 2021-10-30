@@ -1,4 +1,4 @@
-*{
+* {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
@@ -8,56 +8,52 @@
   width: 100%;
   border: 1px solid hsl(0, 0%, 80%);
   border-radius: 4px;
- 
 }
 .react-datepicker-wrapper {
-  width: 70%;
-
+  width: 100%;
 }
 .input-group-append {
   align-items: center;
 }
-.form-control{
+.form-control {
   height: auto;
 }
 
 .back {
-  padding: 30px 0 0 0 ;
+  padding: 30px 0 100px 0;
   position: relative;
   min-height: 100vh;
   min-width: min-content;
-  background-image: radial-gradient( circle farthest-corner at 1.5% 1.4%,  rgba(159,227,255,1) 0%, rgba(255,177,219,1) 100.2% );
+  background-image: radial-gradient(
+    circle farthest-corner at 1.5% 1.4%,
+    rgba(159, 227, 255, 1) 0%,
+    rgba(255, 177, 219, 1) 100.2%
+  );
 }
 
 .butn {
-  background-color: rgb(237, 187, 226)!important;
-  border: 1px solid white!important;
+  background-color: rgb(237, 187, 226) !important;
+  border: 1px solid white !important;
   border-radius: 60px;
 
-  color: white!important;
-  outline: none!important;
+  color: white !important;
+  outline: none !important;
   cursor: pointer;
- 
-  
 }
 
-.butn:hover{
-  background-color: rgba(159,227,255,1)!important;
-
+.butn:hover {
+  background-color: rgba(159, 227, 255, 1) !important;
 }
 
 button:focus {
-  outline: none!important;
-  box-shadow:none!important;
+  outline: none !important;
+  box-shadow: none !important;
 }
 
 input:focus {
-  outline: none!important;
-  box-shadow:none!important;
+  outline: none !important;
+  box-shadow: none !important;
 }
-
-
-
 
 .Toastify__toast--default {
   background: #fff;
@@ -66,8 +62,4 @@ input:focus {
 
 .Toastify__toast--error {
   background: #161312;
-} 
-
-
-
-
+}
