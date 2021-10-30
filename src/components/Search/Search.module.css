@@ -55,8 +55,6 @@
 }
 
 .dateWrapper {
-  /* display: flex;
-  justify-content: space-between; */
   color: white;
 }
 .dateWrapper:nth-child(2) {
